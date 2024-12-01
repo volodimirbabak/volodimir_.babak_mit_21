@@ -1,4 +1,4 @@
-//_base.scss
+/* Reset and base styles  */
 * {
     padding: 0px;
     margin: 0px;
@@ -11,10 +11,6 @@
 *::after {
     box-sizing: border-box;
 }
-
-
-
-
 
 
 /* Links */
@@ -55,6 +51,7 @@ img {
 
 
 img, svg {
+    max-width: 100%;
     height: auto;
 }
 
