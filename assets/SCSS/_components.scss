@@ -1,0 +1,16 @@
+//_components.scss
+
+body {
+    background: #F1F1F1;
+    font-family: $font_stack;
+    margin: 1rem;
+}
+
+h1 {
+    color: $h1_color;
+    font-size: 2rem;
+}
+
+.trash, .pen:hover, .discard:hover, .create_formula:hover, .save:hover {
+    @include pointer;
+}
